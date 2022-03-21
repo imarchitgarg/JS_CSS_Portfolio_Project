@@ -49,9 +49,11 @@
     header {
         padding: 0 !important;
     }
+
     .section {
         padding: 7rem 11rem;
     }
+
     .contact-content-con {
         flex-direction: column;
         .right-contact {
@@ -76,14 +78,6 @@
         .right-about {
             padding-top: 2.5rem;
         }
-    }
-
-    .portfolios {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .blogs {
-        grid-template-columns: 1fr 1fr;
     }
 
     .main-title {

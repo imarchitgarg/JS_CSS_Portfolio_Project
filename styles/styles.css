@@ -1079,14 +1079,6 @@ section {
   .about-container .right-about {
     padding-top: 2.5rem;
   }
-  .portfolios {
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-  }
-  .blogs {
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-  }
   .main-title h2 {
     font-size: 4rem;
   }
