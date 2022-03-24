@@ -37,7 +37,7 @@
 
 body {
   background-color: var(--color-primary);
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 1.1rem;
   color: var(--color-white);
   transition: all 0.4s ease-in-out;
@@ -52,7 +52,6 @@ a {
 
 header {
   min-height: 100vh;
-  font-family: 'Poppins', sans-serif;
   color: var(--color-white);
   overflow: hidden;
 }
@@ -153,7 +152,6 @@ section {
 .theme-btn {
   top: 5%;
   right: 3%;
-  padding: 1rem;
   cursor: pointer;
   background-color: var(--color-grey-4);
   width: 70px;
@@ -208,6 +206,10 @@ section {
         width: 100%;
         transition: all 0.4s ease-in-out;
         object-fit: cover;
+        filter: grayscale(100%);
+        &:hover{
+          filter: grayscale(0);
+        }
       }
     }
   }
@@ -281,13 +283,13 @@ section {
           color: var(--color-grey-1);
           letter-spacing: 2px;
           &::before {
-            content: "";
+            content: '';
             position: absolute;
             left: 0;
             top: 15px;
             width: 2rem;
             height: 2px;
-            background-color: var(--color-grey-6);
+            background-color: var(--color-grey-5);
           }
         }
       }
@@ -328,6 +330,7 @@ section {
           height: 100%;
           background-color: var(--color-secondary);
           transition: all 0.4s ease-in-out;
+          width: 60%;
         }
         .html {
           width: 90%;
@@ -353,10 +356,10 @@ section {
   text-transform: uppercase;
   font-size: 1.4rem;
   text-align: center;
-  padding: 2.5rem 0;
+  padding: 3.5rem 0;
   position: relative;
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     left: 50%;
     top: 0;
@@ -385,7 +388,7 @@ section {
       background-color: var(--color-secondary);
       width: 50px;
       height: 50px;
-      border-radius: 505;
+      border-radius: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -431,6 +434,7 @@ section {
   margin-top: 3rem;
   .portfolio-item {
     position: relative;
+    border-radius: 15px;
     img {
       width: 100%;
       height: 300px;
@@ -509,12 +513,12 @@ section {
         transition: all .4s ease-in-out;
         &:hover {
             box-shadow: 1px 1px 20px rgba(0, 0, 0, .3);
-            transform: translateY-5px();
+            transform: translateY(-5px);
             transition: all .4s ease-in-out;
             img {
                 filter: grayscale(0);
                 transform: scale(1.1);
-                box-shadow: 0px 4px 15px rgba(0, 0, 0, .8);
+                box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.8);
             }
         }
         img {
@@ -676,7 +680,7 @@ section {
     padding: 1rem;
   }
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     right: 0;
@@ -690,6 +694,7 @@ section {
       height: 100%;
       background-color: var(--color-secondary);
       transform: translateX(0);
+      transition: all .4s ease-out;
     }
   }
 }
