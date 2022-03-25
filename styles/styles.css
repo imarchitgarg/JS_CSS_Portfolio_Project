@@ -997,7 +997,7 @@ section {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   font-weight: 800;
-  font-family: 6.3rem;
+  font-size: 6.3rem;
 }
 
 .about-container .left-about p {
