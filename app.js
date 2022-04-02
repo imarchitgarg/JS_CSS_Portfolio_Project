@@ -40,4 +40,8 @@ function pageTransitions() {
     })
 }
 
+function submitBtn() {
+    alert("Submitting information is not supported at this moment\n\nPlease use the information in left to contact Archit\n\nOR\n\nDrop a Whatsapp/Text message to Archit(Recommened)");
+}
+
 pageTransitions();
