@@ -41,7 +41,7 @@ function pageTransitions() {
 }
 
 function submitBtn() {
-    alert("Submitting information is not supported at this moment\n\nPlease use the information in left to contact Archit\n\nOR\n\nDrop an Email/Text/Whatsapp to Archit(Recommened)");
+    alert("Submitting information is not supported at this moment\n\nPlease use the information in left to contact Archit\n\nOR\n\nDrop an Email/Text/Whatsapp to Archit(Recommended)");
 }
 
 pageTransitions();
