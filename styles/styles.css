@@ -818,6 +818,16 @@ section {
   margin-top: 2rem;
 }
 
+.contact-content-con .left-contact .contact-icon .links_desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 20px;
+}
+
 .contact-content-con .left-contact .contact-icon a {
   display: -webkit-box;
   display: -ms-flexbox;
